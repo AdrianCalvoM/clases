@@ -1,0 +1,10 @@
+CASA    
+host:centrodonbosco.ddns.net
+puerto:9000
+sid:gandhidb
+
+LOCAL
+host:gandhi
+puerto:1521
+sid:gandhidb
+servicio:gandhidb.salesianos.local

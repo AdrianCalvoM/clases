@@ -8,3 +8,10 @@ create table alumnos(
   edad number(3)
 );
 
+create table empresas(
+  cif char(9) constraint empresas_pk primary key,
+  nombre varchar2(25) constraint empresas_uk1 unique
+                      constraint empresas_nn1 not null,
+  telefono char(9),
+  direccion varchar2(50)
+);

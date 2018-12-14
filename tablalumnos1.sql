@@ -15,3 +15,7 @@ create table empresas(
   telefono char(9),
   direccion varchar2(50)
 );
+
+alter table alumnos add(
+  cif char(9) constraint alumnos_fk1 references empresas on delete set null
+  );
